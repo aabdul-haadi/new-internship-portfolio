@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { FaGithub, FaLinkedin, FaMailBulk, FaGlobe } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 export const Footer: React.FC = () => {
@@ -24,8 +24,9 @@ export const Footer: React.FC = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Github className="h-6 w-6" />
+              <FaGithub className="h-6 w-6" />
             </motion.a>
+
             <motion.a
               href="https://linkedin.com/in/abdul-haadi"
               target="_blank"
@@ -34,17 +35,31 @@ export const Footer: React.FC = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Linkedin className="h-6 w-6" />
+              <FaLinkedin className="h-6 w-6" />
             </motion.a>
+
             <motion.a
               href="mailto:contact@abdulhaadi.dev"
               className="text-gray-600 dark:text-gray-400 hover:text-police-blue dark:hover:text-white transition-colors duration-300"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Mail className="h-6 w-6" />
+              <FaMailBulk className="h-6 w-6" />
+            </motion.a>
+
+            {/* Portfolio Icon */}
+            <motion.a
+              href="https://haadi-s-portfolio.vercel.app/" // Replace with your actual portfolio link
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-police-blue dark:hover:text-white transition-colors duration-300"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <FaGlobe className="h-6 w-6" />
             </motion.a>
           </div>
+
           <div className="text-center">
             <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">
               © {new Date().getFullYear()} Abdul Haadi. All rights reserved.
