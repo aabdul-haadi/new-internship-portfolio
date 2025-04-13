@@ -26,7 +26,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <img
               src="https://www.pngaaa.com/api-download/4681127"
               alt="Logo"
-              className="h-8 w-8"
+              className="h-14 w-14"
             />
           </div>
 
