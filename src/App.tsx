@@ -63,6 +63,23 @@ function App() {
       description: "Minimalist design with smooth motion for interior design services",
       github: "https://github.com/aabdul-haadi/Interior-design-website",
       demo: "https://interior-design-website-ashy.vercel.app/"
+    },
+     {
+      title: "Pet Service Website",
+      description: "A complete website offering pet grooming, adoption, and other services for pet lovers.",
+      github: "https://github.com/yourusername/pet-service",  // Replace with actual GitHub repo URL
+      demo: "https://paw-care-blue.vercel.app/"  // Replace with actual demo URL
+    },
+     {
+      title: "Nova-Studio",
+      description: "A digital agency website showcasing creative solutions for clients.",
+      github: "https://github.com/yourusername/nova-studio",  // Replace with actual GitHub repo URL
+      demo: "https://novatech-studio.vercel.app/"
+    },{
+      title: "Haadi's Portfolio",
+      description: "An enhanced personal portfolio website showcasing my projects, skills, and work experience.",
+      github: "https://github.com/yourusername/haadis-portfolio",  // Replace with actual GitHub repo URL
+      demo: "https://haadi-s-portfolio.vercel.app/"
     }
   ];
 
